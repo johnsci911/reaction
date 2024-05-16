@@ -6,6 +6,7 @@ import CardList from './components/card-list/card-list.component'
 import SearchBox from './components/search-box/search-box.component'
 
 const App = () => {
+  console.log('render');
   const [searchField, setSearchField] = useState('');
   console.log({ searchField });
 
@@ -20,8 +21,8 @@ const App = () => {
       <h1 className="app-title">Monsters Rolodex</h1>
 
       <SearchBox
-        onChangeHandler={onSearchChange}
         className='monsters-search-box'
+        onChangeHandler={onSearchChange}
         placeholder='Search Monsters'
       />
 
