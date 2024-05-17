@@ -14,8 +14,7 @@ const App = () => {
 	])
 }
 
-ReactDOM.render(
-	React.createElement(App), 
-	document.getElementById('root')
-) 
+const Container = document.getElementById('root');
+const root = ReactDOM.createRoot(Container);
+root.render(React.createElement(App));
 
