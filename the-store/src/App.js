@@ -1,9 +1,9 @@
-import CategoriesDrawer from './components/categories-drawer.component';
+import Directory from './components/directory.component';
 import './categories.styles.scss';
 
 const App = () => {
   return ( 
-    <CategoriesDrawer />
+    <Directory />
   );
 };
 

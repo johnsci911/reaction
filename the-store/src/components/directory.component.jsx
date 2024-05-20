@@ -1,7 +1,7 @@
 import CategoryItem from '../components/category-item/category-item.component.jsx';
 import '../categories.styles.scss';
 
-const CategoriesDrawer = () => {
+const Directory = () => {
   const categories = [
     {
       "id": 1,
@@ -39,4 +39,4 @@ const CategoriesDrawer = () => {
   );
 }
 
-export default CategoriesDrawer;
+export default Directory;
